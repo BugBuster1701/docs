@@ -6,9 +6,12 @@
     * Anpassungen Apache
     * Wechsel zu PHP-FPM
     * Composer
+* Contao Versionen
+    * Contao 3.4
+    * Contao 3.5
 * Minimum an Werkzeugen fuer TDD 
     * PHPUnit
-    * Automatisches Testen mit watchr
+    * Automatisches Testen mit watchr (RubyGem)
 * Kontinuierliche Integration
     * Jenkins Server
     * Jenkins Plugins
