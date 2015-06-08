@@ -4,8 +4,8 @@
 * [Installation der VM](02-installation-vm/README.md)
     * [Ubuntu Server 15.04 als Basis](02-installation-vm/ubuntu_server.md)
     * [Anpassungen Apache](02-installation-vm/anpassungen_apache.md)
-    * Wechsel zu PHP-FPM
-    * Composer
+    * [Wechsel zu PHP-FPM](02-installation-vm/wechsel_zu_php-fpm.md)
+    * [Composer](02-installation-vm/installation_composer.md)
 * [Installation Contao Versionen](03-installation-contao/README.md)
     * Contao 3.4
     * Contao 3.5

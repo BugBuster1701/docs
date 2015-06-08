@@ -67,6 +67,7 @@ Mit dem Inhalt:
     <?php phpinfo(); ?>
 
 Aufruf mit: ```http://[SERVER_IP_ADDRESS]/info.php```
+
 Diese Zeile muss nun auftauchen als dritte:
 
     Server API 	FPM/FastCGI 
@@ -81,3 +82,10 @@ ist warscheinlich parallel noch das Apache PHP Modul installiert:
     sudo service apache2 restart
     
 Nun sollte es passen.
+
+Wer phpMyAdmin gern benutzt sollte das auch gleich installieren:
+
+    sudo apt-get install phpmyadmin
+
+Aufruf mit: ```http://[SERVER_IP_ADDRESS]/phpmyadmin```
+
