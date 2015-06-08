@@ -88,13 +88,13 @@ Die Socket Datei läuft unter dem User des Apache.
 
 Daher in /etc/group mein Login bibo in der Gruppe www-data angängen:
 
-    www-data:x:33:bibo
+    sudo usermod -aG www-data bibo
 
 Nun nochmal zu Sicherheit PHP neu starten:
 
-    service php5-fpm restart
+    sudo service php5-fpm restart
 
-Auf dem HOST Rechner bzw. auf dem Rechner mit dem man von außen auf die VM und damit Contao zugreifen will die hosts Datei anpassen, bei mir auch ein Linux Rechner:
+Auf dem HOST Rechner, bzw. auf dem Rechner mit dem man von außen auf die VM und damit Contao zugreifen will, die hosts Datei anpassen, bei mir auch ein Linux Rechner:
 
     sudo vi /etc/hosts
 
