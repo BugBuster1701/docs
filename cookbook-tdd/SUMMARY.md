@@ -9,7 +9,7 @@
 * [Installation Contao Versionen](03-installation-contao/README.md)
     * [Contao 3.4](03-installation-contao/installation_contao34_vhost.md)
     * [Contao 3.5](03-installation-contao/installation_contao35_vhost.md)
-* [Minimum an Werkzeugen fuer TDD](04-minimum-werkzeuge/README.md)
+* [Minimum an Werkzeugen für TDD](04-minimum-werkzeuge/README.md)
     * PHPUnit
     * Automatisches Testen mit watchr (RubyGem)
 * [Kontinuierliche Integration](05-kontinuierliche-integration/README.md)
