@@ -7,7 +7,7 @@ Mit gehts hier jedoch das ganze lokal zu erledigen, damit ich nicht für jeden T
 
 Daher habe ich angefangen eine Virtuelle Maschine aufzusetzen, in dem die ganzen Tests ablaufen sollen. In diesem Kochbuch halte ich dann fest, was ich wie installiert habe. 
 
-Am Ende gibt es dann doch noch eine Online Tool "SensioLabsInsight" was ich nutze als erstes.
+Am Ende folgen dann doch noch Hinweise zu Online Tools wie "SensioLabsInsight", was ich auch selber nutze.
 
 **Hinweis**: Alles was ich hier schreibe ohne Gewähr auf Richtigkeit oder Vollständigkeit. Es ist nur eine Mitschrift und kann anderen als Inspiration dienen sich mit diesem Thema zu beschäftigen.
 Für das Eine oder Andere gibt es sicherlich auch Alternativen. Ich behalte mir auch vor Teile komplett neu auf anderer Art zu bauen, wenn die erste Variante sich im Laufe der Zeit als ungünstig erwieß.  
