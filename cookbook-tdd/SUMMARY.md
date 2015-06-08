@@ -21,5 +21,9 @@
     * Ant build.xml
     * Konfigurationen für die Tools
     * Jenkins Job Template
-* [Beispiele](07-beispiele/README.md)
+* [Test Beispiele](07-beispiele/README.md)
     * Lorem Coffee
+* [Online Testplattformen](10-online-testplattformen/README.md)
+    * SensioLabsInsight
+    * Travis
+    * Scrutinizer
