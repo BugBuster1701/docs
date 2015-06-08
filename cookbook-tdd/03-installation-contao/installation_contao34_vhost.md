@@ -1,4 +1,4 @@
-## Installation von Contao 3.4 als Apache namesbasierter virtueller Host
+## Installation von Contao 3.4 als namensbasierter virtueller Host
 
 Definitionen, änderbar:
 
@@ -132,7 +132,7 @@ mv check /var/www/contao4go/contao34/
 
 Aufruf des Checks:
 
-   http://contao34.php-ci.lan/check/
+    http://contao34.php-ci.lan/check/
 
 Hier sollte nun alles grün sein, sonst muss das erst behoben werden.
 Die Installation damit prüfen wäre jetzt sinnvoll.
