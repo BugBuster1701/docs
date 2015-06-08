@@ -2,8 +2,8 @@
 
 * [Vorwort](01-vorwort/README.md)
 * [Installation der VM](02-installation-vm/README.md)
-    * Ubuntu 15.04 Server als Basis
-    * Anpassungen Apache
+    * [Ubuntu Server 15.04 als Basis](02-installation-vm/ubuntu_server.md)
+    * [Anpassungen Apache](02-installation-vm/anpassungen_apache.md)
     * Wechsel zu PHP-FPM
     * Composer
 * [Installation Contao Versionen](03-installation-contao/README.md)
