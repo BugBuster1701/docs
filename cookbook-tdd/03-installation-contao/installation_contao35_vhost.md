@@ -74,6 +74,9 @@ Die Konfiguration aktivieren:
 Damit Contao/PHP-FPM auch unter meiner Nutzer ID was schreiben darf, sind noch einge Anpassungen nötig:
 
     sudo chown bibo:bibo /var/www/contao4go/contao35
+
+Falls bereits eine andere Contao Version nach dieser Anleitung installiert wurde, weiter bei [Anpassung HOST Rechner](installation_contao35_vhost.md#anpassung-host-rechner).
+
     sudo vi /etc/php5/fpm/pool.d/www.conf
 
 Darin den User auf bibo setzen, damit PHP-FPM/Contao schreiben darf.
@@ -93,6 +96,8 @@ Daher in /etc/group mein Login bibo in der Gruppe www-data angängen:
 Nun nochmal zu Sicherheit PHP neu starten:
 
     sudo service php5-fpm restart
+
+### Anpassung HOST Rechner
 
 Auf dem HOST Rechner, bzw. auf dem Rechner mit dem man von außen auf die VM und damit Contao zugreifen will, die hosts Datei anpassen, bei mir auch ein Linux Rechner:
 
