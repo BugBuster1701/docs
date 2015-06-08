@@ -1,8 +1,8 @@
 # Kontinuierliche Integration
 
-Bei einer Kontinuierliche Integration laufen nicht nur automatische funktionelle Test ab. Hier werden auch automatisch die Anwendungen in die Umgebung integriert und getestet, Softwaremetriken erstellt usw. bis hin zur Generierung eines Nightly Build, sofern man das denn will.
+Bei einer Kontinuierliche Integration laufen nicht nur automatische funktionelle Tests ab. Hier werden auch automatisch die Anwendungen in die Umgebung integriert und getestet, Softwaremetriken erstellt usw. bis hin zur Generierung eines Nightly Build, sofern man das denn will.
 
-Hier folgt die Beschreibung der Installationen:
+Hier folgen die Beschreibungen der jeweiligen Installationen:
 
 - Apache Ant, dieser startet die einzelnen Tests gesteuert durch eine build.xml
 - Jenkins Server, der dient als Job Management und soll auch erkennen wenn es was zu tun gibt
