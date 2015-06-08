@@ -1,0 +1,23 @@
+{
+  "gitbook": "2.x.x",
+  "plugins": [
+      "richquotes",
+      "edit-link",
+      "anchors"
+  ],
+  "links": {
+    "sidebar": {
+      "Contao.Ninja Homepage": "http://contao.ninja",
+      "Contao.Ninja Docs": "http://docs.contao.ninja"
+    }
+  },
+  "pdf": {
+    "toc": false
+  },
+  "pluginsConfig": {
+      "edit-link": {
+          "base": "https://github.com/BugBuster1701/docs/edit/master/cookbook-tdd",
+          "label": "Seite bearbeiten"
+      }
+  }
+}
