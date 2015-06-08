@@ -1,4 +1,4 @@
-# Minimum an Werkzeugen fuer TDD
+# Minimum an Werkzeugen für TDD
 
 Zum Testen braucht man ein Testwerkzeug, hier habe ich mich für PHPUnit entschieden. Damit das nun auch noch automatisch startet sobald sich Dateien der zu testenden Erweiterung ändern, wurde noch ein RubyGem "watchr" installiert.
 
