@@ -6,7 +6,7 @@
     * Anpassungen Apache
     * Wechsel zu PHP-FPM
     * Composer
-* Contao Versionen
+* Installation Contao Versionen
     * Contao 3.4
     * Contao 3.5
 * Minimum an Werkzeugen fuer TDD 
