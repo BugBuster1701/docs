@@ -10,6 +10,7 @@
     - IP Adresse aus dem LAN, kein NAT, finde ich praktischer
     - SSH Server aktiviert
     - SAMBA aktiviert, mal sehen ob ich es brauche
+    - Hostname: php-ci , kann individuell gewählt werden
 
 Abschließend:
 

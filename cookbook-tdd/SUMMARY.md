@@ -7,8 +7,8 @@
     * [Wechsel zu PHP-FPM](02-installation-vm/03-wechsel_zu_php-fpm.md)
     * [Composer](02-installation-vm/04-installation_composer.md)
 * [Installation Contao Versionen](03-installation-contao/README.md)
-    * Contao 3.4
-    * Contao 3.5
+    * [Contao 3.4](03-installation-contao/installation_contao34_vhost.md)
+    * [Contao 3.5](03-installation-contao/installation_contao35_vhost.md)
 * [Minimum an Werkzeugen fuer TDD](04-minimum-werkzeuge/README.md)
     * PHPUnit
     * Automatisches Testen mit watchr (RubyGem)
