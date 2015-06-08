@@ -71,7 +71,7 @@ Die Konfiguration aktivieren:
 
 ### System Anpassungen
 
-Damit Contao/PHP-FPM auch unter meiner Nutzer ID was schreiben darf, sind noch einge Anpassungen nötig.
+Damit Contao/PHP-FPM auch unter meiner Nutzer ID was schreiben darf, sind noch einige Anpassungen nötig.
 
     sudo chown bibo:bibo /var/www/contao4go/contao34
 
@@ -111,8 +111,8 @@ Darin:
 
 ```
 cd /tmp
-curl -L https://download.contao.org/3.5.0 | tar xpz
-cd contao-3.5.0
+curl -L https://download.contao.org/3.4.5 | tar xpz
+cd contao-3.4.5
 mv *.* /var/www/contao4go/contao34/
 mv .htaccess.default /var/www/contao4go/contao34/
 mv .htaccess.default /var/www/contao4go/contao34/
