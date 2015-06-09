@@ -56,13 +56,12 @@ Nun startet man zuerst PHPUnit manuell aus dem Modul Verzeichnis:
 
 Das sollte dann in etwa so ausssehen:
 
-	Running tests/TestBeispielTest.php
-	PHPUnit 4.7.0 by Sebastian Bergmann.
-	 
+	PHPUnit 4.2.6 by Sebastian Bergmann.
+	
 	.
-	 
-	Time: 0 seconds, Memory: 1.00Mb
-	 
+	
+	Time: 125 ms, Memory: 2.50Mb
+	
 	OK (1 test, 1 assertion)
 
 
@@ -74,4 +73,25 @@ Nun sollten im Terminal Fenster, in dem "watchr" gestartet wurde, die Ausgaben v
 
 Würde man nun mit einem Editor die Datei TestBeispiel.php öffnen und die Ausgabe der Methode auf "Hallo" ändern und abspeichern, sollte kurz danach im Terminal zu sehen sein:
 
-**TODO**: Fehler Ausgabe
+	Running tests/TestBeispielTest.php
+	PHPUnit 4.2.6 by Sebastian Bergmann.
+	
+	F
+	
+	Time: 30 ms, Memory: 2.50Mb
+	
+	There was 1 failure:
+	
+	1) TestBeispielTest::testSayHello
+	Failed asserting that two strings are equal.
+	--- Expected
+	+++ Actual
+	@@ @@
+	-'Hello'
+	+'Hallo'
+	
+	system/modules/meinmodul/tests/TestBeispielTest.php:25
+	
+	FAILURES!
+	Tests: 1, Assertions: 1, Failures: 1.
+
