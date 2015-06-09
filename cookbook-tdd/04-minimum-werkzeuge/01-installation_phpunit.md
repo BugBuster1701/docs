@@ -11,9 +11,13 @@ Zum Testen mal die Version anzeigen lassen:
 
     phpunit --version
 
+    PHPUnit 4.2.6 by Sebastian Bergmann.
+    
+Hier scheint Ubuntu eine etwas ältere Version zu haben, aktuell zu diesem Zeitpunkt war die 4.7.0
+
 ### Installation manuell als phar 
 
-Über die Homepage von PHPUnit ```https://phpunit.de/``` die aktuelle stable laden
+Über die Homepage von PHPUnit ```https://phpunit.de/``` die aktuelle stable laden, derzeit 4.7.0
 
     curl -L -o phpunit.phar https://phar.phpunit.de/phpunit.phar
     chmod +x phpunit.phar
