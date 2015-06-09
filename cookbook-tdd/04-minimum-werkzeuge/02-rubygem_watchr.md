@@ -10,7 +10,11 @@ Infos dazu auf Englisch auf [code.tutplus.com](http://code.tutsplus.com/tutorial
 
     ruby -v
 
- Wie in der Einleitung erwähnt, gibt es die Möglichkeit sich als Popup ein Meldung auf dem Bildschirm ausgeben zu lassen, sofern man grafisch angemeldet ist am Testserver. Dazu prüfen wir ob die benötigten Libs installiert sind.
+Falls nicht, dann installieren:
+
+    sudo apt-get install ruby
+
+Wie in der Einleitung erwähnt, gibt es die Möglichkeit sich als Popup ein Meldung auf dem Bildschirm ausgeben zu lassen, sofern man grafisch angemeldet ist am Testserver. Dazu prüfen wir ob die benötigten Libs installiert sind.
 
     notify-send 'Notify-Test' 'Das ist ein Test' -t 4000
 
@@ -19,9 +23,11 @@ Falls notify-send nicht installiert ist, hilft ein:
 
     sudo apt-get install libnotify-bin
 
+Die Nachricht vom der VM zum Host zu senden und dort anzeigen zu lassen folgt in einem späterem Kapitel.
+
 OK, nun wird "watchr" installiert.
 
-    gem install watchr
+    sudo gem install watchr
 
 ### Überwachungssript für watchr
 
