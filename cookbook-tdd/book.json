@@ -3,7 +3,8 @@
   "plugins": [
       "richquotes",
       "edit-link",
-      "anchors"
+      "anchors",
+      "autocover"
   ],
   "links": {
     "sidebar": {
@@ -18,6 +19,22 @@
       "edit-link": {
           "base": "https://github.com/BugBuster1701/docs/edit/master/cookbook-tdd",
           "label": "Seite bearbeiten"
+      },
+      "autocover": {
+                "title": "Kochbuch TDD für Contao Erweiterungen",
+                "author": "BugBuster",
+                "font": {
+                    "size": null,
+                    "family": "Impact",
+                    "color": "#FFF"
+                },
+                "size": {
+                    "w": 1800,
+                    "h": 2360
+                },
+                "background": {
+                    "color": "#09F"
+                }
       }
   }
 }
