@@ -23,7 +23,7 @@ Falls notify-send nicht installiert ist, hilft ein:
 
     sudo apt-get install libnotify-bin
 
-Die Nachricht von der VM zum Host zu senden und dort anzeigen zu lassen folgt in einem späterem Kapitel.
+Als Alternative die Nachricht von der VM zum Host zu senden und dort anzeigen zu lassen, folgt am Ende dieser Seite: [Alternatives Überwachungssript für watchr](02-rubygem_watchr.html#sprung1)
 
 OK, nun wird "watchr" installiert.
 
@@ -31,8 +31,8 @@ OK, nun wird "watchr" installiert.
 
 ### Überwachungssript für watchr
 
-"watchr" selbst brauch noch ein Script um zu wissen was zu tun ist.
-Nehmen wir mal, unsere Erweiterung "bank" hätte die Unterverzeichnisse "classes" und parallel dazu "tests". Dann legen wir eine Datei ```autotest_watchr.rb``` an in ```system/modules/bank``` mit dem Inhalt:
+"watchr" selbst braucht noch ein Script, um zu wissen was zu tun ist.
+Nehmen wir mal, unsere Erweiterung "meinmodul" hätte die Unterverzeichnisse "classes" und parallel dazu "tests". Dann legen wir eine Datei ```autotest_watchr.rb``` an in ```system/modules/meinmodul``` mit dem Inhalt:
 
 	#####
 	# Watch the classes folder for changes
@@ -59,10 +59,12 @@ Nehmen wir mal, unsere Erweiterung "bank" hätte die Unterverzeichnisse "classes
 
 Gestartet wird nun "watchr" im Modulverzeichnis:
 
-    cd system/modules/bank
+    cd system/modules/meinmodul
     watchr ./autotest_watchr.rb
 
 Sobald nun eine Datei im Verzeichnis classes oder im Verzeichnis tests verändert wird, über ein Deploy Script, Git oder ähnliches, wird "watchr" aktiv und startet im ersten Fall phpunit mit der passende Testklasse oder startet im zweiten Fall phpunit mit der veränderten Testklasse und gibt jeweils die Ausgaben von PHPUnit wieder. Daher das Terminalfenster nicht aus den Augen lassen.
+
+### Erweitertes Überwachungssript für watchr
 
 Das Script kann nun noch verbessert werden für spezielle Meldungen und wie erwähnt die Popup Meldung. Hier mal ein komplettes Script aus einer meiner Erweiterungen:
 
@@ -126,5 +128,40 @@ Das Script kann nun noch verbessert werden für spezielle Meldungen und wie erw�
     end
 
 Hier sind die Bilder und Pfade noch von Linux Mint, die müssen für die VM noch angepasst werden, sofern wie gesagt man die Notify Meldungen denn überhaupt sehen könnte.
+<span id="sprung1"></span>
+### Alternatives Überwachungssript für watchr
 
-**TODO**: Alternative suchen für VM ohne grafische Oberfläche.
+Die notify-send Meldung kann aus der VM heraus zum Host gemeldet und dort angezeigt werden. Leider geht dabei die Meldung im Fehlerfall nicht ganz durch, daher wurde ein fester Text definiert. Was genau schief gegangen ist, sollte man sowieso in der Ausgabe von watchr/PHPUnit schauen.
+
+Für die Übertragung der Meldung muss eine SSH Verbindung von der VM zum Host möglich sein ohne Passwort. 
+(SSH-Key ohne Passphrase) Auf dem Host muss dann natürlich notify-send installiert sein.[^1]
+
+Hier mal nur die Änderungen: (mit # auskommentiert sind die alten Zeilen)
+
+    if result.match(/OK/)
+      #notify "#{file}", "Tests Passed Successfuly", "dialog-information.png", 4000
+      notify "#{file}", "Tests Passed Successfuly"
+    elsif result.match(/FAILURES\!/)
+      notify_failed "#{file}", "#{result}"
+    end
+
+
+    def notify_failed cmd, result
+      #failed_examples = result.scan(/failure:\n\n(.*)\n/)
+      #notify "#{cmd}", failed_examples[0], "dialog-error.png", 6000
+      notify "#{cmd}", "FAILURES"
+    end
+
+
+    #def notify title, msg, img, show_time
+    def notify title, msg
+      #images_dir='/usr/share/icons/Mint-X/status/48'
+      #system "notify-send '#{title}' '#{msg}' -i #{images_dir}/#{img} -t #{show_time}"
+      system "ssh -X user@host 'DISPLAY=:0 notify-send \"#{title}\" \"#{msg}\" '"
+    end
+
+user@host sind hier zu ersetzen mit dem Loginnamen und dem Servernamen des Hostes bzw. des Servers auf dem die Meldung erscheinen soll.
+
+
+
+[^1]: Bei Ubunutu,Debian bzw. je nach Desktopumgebung. Bei manchen wird z.B. xfce4-notifyd verwendet. Siehe dazu bei [Ubuntuusers](http://wiki.ubuntuusers.de/Benachrichtigungsdienst)

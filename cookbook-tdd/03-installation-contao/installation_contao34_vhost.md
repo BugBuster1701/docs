@@ -14,7 +14,7 @@ Definitionen, änderbar:
 
 ### Anlegen eines Virtuellen Hostes für Contao 3.4:
 
-    sudo vi /etc/apache2/sites-enabled/contao34.conf 
+    sudo vi /etc/apache2/sites-available/contao34.conf 
 
 Darin kommt dann:
 
@@ -115,7 +115,7 @@ curl -L https://download.contao.org/3.4.5 | tar xpz
 cd contao-3.4.5
 mv *.* /var/www/contao4go/contao34/
 mv .htaccess.default /var/www/contao4go/contao34/
-mv .htaccess.default /var/www/contao4go/contao34/
+mv .gitignore /var/www/contao4go/contao34/
 ```
 
 Vor Aufruf des Installers prüfen wir erst Mal, ob alles OK ist dafür.
