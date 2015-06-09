@@ -23,7 +23,7 @@ Falls notify-send nicht installiert ist, hilft ein:
 
     sudo apt-get install libnotify-bin
 
-Die Nachricht vom der VM zum Host zu senden und dort anzeigen zu lassen folgt in einem späterem Kapitel.
+Die Nachricht von der VM zum Host zu senden und dort anzeigen zu lassen folgt in einem späterem Kapitel.
 
 OK, nun wird "watchr" installiert.
 
