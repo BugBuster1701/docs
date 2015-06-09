@@ -14,7 +14,10 @@ Infos dazu auf Englisch auf [code.tutplus.com](http://code.tutsplus.com/tutorial
 
     notify-send 'Notify-Test' 'Das ist ein Test' -t 4000
 
-Hier sollte nun eine Nachricht erscheinen für 4 Sekunden.
+Hier sollte nun eine Nachricht erscheinen für 4 Sekunden.<br>
+Falls notify-send nicht installiert ist, hilft ein:
+
+    sudo apt-get install libnotify-bin
 
 OK, nun wird "watchr" installiert.
 
