@@ -10,8 +10,9 @@
     * [Contao 3.4](03-installation-contao/installation_contao34_vhost.md)
     * [Contao 3.5](03-installation-contao/installation_contao35_vhost.md)
 * [Minimum an Werkzeugen für TDD](04-minimum-werkzeuge/README.md)
-    * PHPUnit
-    * Automatisches Testen mit watchr (RubyGem)
+    * [PHPUnit](04-minimum-werkzeuge/01-installation_phpunit.md)
+    * [Automatisches Testen mit watchr (RubyGem)](04-minimum-werkzeuge/02-rubygem_watchr.md)
+    * [Testbeispiel](04-minimum-werkzeuge/03-testbeispiel.md)
 * [Kontinuierliche Integration](05-kontinuierliche-integration/README.md)
     * Jenkins Server
     * Jenkins Plugins
@@ -21,7 +22,7 @@
     * Ant build.xml
     * Konfigurationen für die Tools
     * Jenkins Job Template
-* [Test Beispiele](07-beispiele/README.md)
+* [Testbeispiele](07-beispiele/README.md)
     * Lorem Coffee
 * [Online Testplattformen](10-online-testplattformen/README.md)
     * SensioLabsInsight
