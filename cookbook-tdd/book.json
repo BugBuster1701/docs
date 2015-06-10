@@ -52,7 +52,7 @@
     },
     
     "_comment": "Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
-    "headerTemplate": null,
+    "headerTemplate": "<p style='text-align:center; color:green'>_SECTION_</p>",
 
     "_comment": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
     "footerTemplate": "<p style='text-align:center; color:green'>Page _PAGENUM_</p>"
