@@ -12,9 +12,9 @@ Meine Erweiterungen haben meist das "src" Verzeichnis nicht und haben Unterverze
 
     meinmodul/
          |---classes/
-         |       |---MyClass.php
+         |       `---MyClass.php
          |---modules/
-         |       |---MyModule.php
+         |       `---MyModule.php
          |---templates/...
          `---tests/
 
@@ -33,13 +33,13 @@ Für Contao 4 werden die Strukturen für Erweiterungen die zu Bundles werden noc
     src/
       |-.../ <-- neue PHP-Klassen nach PSR-4
       |-Resources/
-      |    config/
-      |    contao/  <-- der bisherige Contao-Code
-      |    public/  <-- öffentliche Ressourcen
+      |    |--config/
+      |    |--contao/  <-- der bisherige Contao-Code
+      |    `--public/  <-- öffentliche Ressourcen
       |-DemoBundle.php
     tests/
       |--.../       <-- die Unit-Tests für die neuen Klassen
-      |--bootstrap.php
+      `--bootstrap.php
     CHANGELOG.md
     composer.json
     phpunit.xml.dist

@@ -1,12 +1,12 @@
 {
   "gitbook": "2.x.x",
   
-  // Book metadats (somes are extracted from the README by default)
-  //"title": null,
-  //"description": null,
-  //"isbn": null,
+  "_comment": "Book metadats (somes are extracted from the README by default)",
+  "title": null,
+  "description": null,
+  "isbn": null,
   
-  // Plugins list, can contain "-name" for removing default plugins
+  "_comment": "Plugins list, can contain -name for removing default plugins",
   "plugins": [
       "richquotes",
       "edit-link",
@@ -14,15 +14,15 @@
       "autocover"
   ],
   
-  // Links in template (null: default, false: remove, string: new value)
+  "_comment": "Links in template (null: default, false: remove, string: new value)",
   "links": {
-    // Custom links at top of sidebar
+    "_comment": "Custom links at top of sidebar",
     "sidebar": {
       "Contao.Ninja Homepage": "http://contao.ninja",
       "Contao.Ninja Docs": "http://docs.contao.ninja"
     },
 
-    // Sharing links
+    "_comment": "Sharing links",
     "sharing": {
         "google": false,
         "facebook": null,
@@ -32,25 +32,33 @@
     }
   },
   
-  // Options for PDF generation
+  "_comment": "Options for PDF generation",
   "pdf": {
     "toc": false,
     
-    // Font size for the fiel content, default: 12
+    "_comment": "Font size for the fiel content, default: 12",
     "fontSize": 14,
 		
-    // Paper size for the pdf
-    // Choices are [u’a0’, u’a1’, u’a2’, u’a3’, u’a4’, u’a5’, u’a6’, u’b0’, u’b1’, u’b2’, u’b3’, u’b4’, u’b5’, u’b6’, u’legal’, u’letter’]
+    "_comment": "Paper size for the pdf",
+    "_comment": "Choices are a0-a6, b0-b6, legal, letter",
     "paperSize": "a4",
+
+    "_comment": "Margin (in pts), Note: 72 pts equals 1 inch",
+    "margin": {
+        "right": 62,
+        "left": 62,
+        "top": 36,
+        "bottom": 36
+    },
     
-    //Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.
+    "_comment": "Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
     "headerTemplate": null,
 
-    //Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.
-    "footerTemplate": null
+    "_comment": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
+    "footerTemplate": "<p style='text-align:center; color:green'>Page _PAGENUM_</p>"
   },
   
-  // Global configuration for plugins
+  "_comment": "Global configuration for plugins",
   "pluginsConfig": {
       "edit-link": {
           "base": "https://github.com/BugBuster1701/docs/edit/master/cookbook-tdd",
