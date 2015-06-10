@@ -52,10 +52,10 @@
     },
     
     "_comment": "Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
-    "headerTemplate": "<p style='text-align:center; color:green'>_SECTION_</p>",
+    "headerTemplate": "<p style='text-align:center; color:black'>_TITLE_ - _SECTION_</p>",
 
     "_comment": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
-    "footerTemplate": "<p style='text-align:center; color:green'>Page _PAGENUM_</p>"
+    "footerTemplate": "<p style='text-align:center; color:green'>Seite: _PAGENUM_</p>"
   },
   
   "_comment": "Global configuration for plugins",
