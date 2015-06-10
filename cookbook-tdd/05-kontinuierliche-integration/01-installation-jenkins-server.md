@@ -13,7 +13,7 @@ Jenkins startet sich dann als Daemon und lauscht auf den Port 8080. Ein User 'je
 - Startscript: /etc/init.d/jenkins
 - Konfiguration: /etc/default/jenkins
 - Logdatei: /var/log/jenkins/jenkins.log
-- Aufruf im Webbrowser: http://[SERVER_IP_ADDRESS]:8080
+- Aufruf im Webbrowser: http://192.168.17.201:8080
 
 In der Konfigurationsdatei sind Pfade und auch der Port definiert. Wer einen anderen Port als 8080 benutzen muss, kann diesen dort ändern. Danach 'jenkins' neu starten.
 
