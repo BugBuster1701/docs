@@ -14,11 +14,11 @@
     * [Automatisches Testen mit watchr (RubyGem)](04-minimum-werkzeuge/02-rubygem_watchr.md)
     * [Testbeispiel](04-minimum-werkzeuge/03-testbeispiel.md)
 * [Kontinuierliche Integration](05-kontinuierliche-integration/README.md)
-    * Jenkins Server
-    * Jenkins Plugins
-    * Benötigte PHP Tools
-    * Ant
+    * [Installation Jenkins Server](05-kontinuierliche-integration/01-installation-jenkins-server.md)
+    * [Installation benötigte PHP Tools](05-kontinuierliche-integration/02-installation-php-test-tools.md)
+    * [Installation Apache Ant](05-kontinuierliche-integration/03-installation-apache-ant.md)
 * [Automatische Tests](06-automatische-tests/README.md)
+    * [Hinweise zur Verzeichnisstruktur einer Erweiterung](06-automatische-tests/01-hinweise-verzeichnisstruktur.md) 
     * Ant build.xml
     * Konfigurationen für die Tools
     * Jenkins Job Template
