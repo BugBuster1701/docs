@@ -16,7 +16,7 @@ Somit kann man dann im Hauptverzeichnis PHPUnit manuell starten.
 Das Build-Script erwartet die XML-Konfigurationsdatei allerdings unter ```build/phpunit.xml```.
 Dazu müssen die Pfade in der XML angepasst werden! (relativ zur XML-Datei)
 
-Mehr Informationen kann man finden in der [Dokumentation](http://www.phpunit.de/manual/current/en/appendixes.configuration.html) von PHPUnit.
+Mehr Informationen kann man finden in der [Dokumentation](https://phpunit.de/manual/current/en/appendixes.configuration.html) von PHPUnit.
 
 ### phpDox
 Die phpDox Aufgabe in der build.xml geht davon aus, dass eine XML-Konfigurationsdatei verwendet wird, um die Generation der API-Dokumentation zu konfigurieren.
