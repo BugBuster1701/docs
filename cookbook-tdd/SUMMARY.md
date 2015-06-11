@@ -19,7 +19,7 @@
     * [Installation Apache Ant](05-kontinuierliche-integration/03-installation-apache-ant.md)
 * [Automatische Tests](06-automatische-tests/README.md)
     * [Hinweise zur Verzeichnisstruktur einer Erweiterung](06-automatische-tests/01-hinweise-verzeichnisstruktur.md) 
-    * [Konfiguration von Ant](06-automatische-tests/03-konfiguration-ant.md)
+    * [Konfiguration von Ant](06-automatische-tests/02-konfiguration-ant.md)
     * [Konfigurationen für die Testtools](06-automatische-tests/03-konfigurationen-fuer-die-testtools.md)
     * Jenkins Job Template
 * [Testbeispiele](07-beispiele/README.md)
