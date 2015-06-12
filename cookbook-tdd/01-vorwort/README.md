@@ -5,7 +5,7 @@ Es gibt mittlerweile einige Online Plattformen die für Open Source Projekte kos
 
 Mir geht es hier jedoch darum, dass alles lokal zu erledigen, damit ich nicht für jeden Testdurchlauf erst auf GitHub ein Commit bzw. Pullrequest einstellen muss.
 
-Daher habe ich angefangen eine Virtuelle Maschine aufzusetzen, in dem die ganzen Tests ablaufen sollen. In diesem Kochbuch halte ich dann fest, was ich wie installiert habe. 
+Daher habe ich angefangen eine Virtuelle Maschine aufzusetzen, in dem die ganzen Tests ablaufen sollen. Hier halte ich dann fest, was ich wie installiert habe. 
 
 Am Ende folgen dann doch noch Hinweise zu Online Tools wie "SensioLabsInsight", was ich auch selber nutze.
 
@@ -14,4 +14,4 @@ Für das Eine oder Andere gibt es sicherlich auch Alternativen. Ich behalte mir 
 
 Kurz, die Mitschrift hier lebt! 
 
-Fehler bitte über das [Ticketsystem](https://github.com/BugBuster1701/docs/issues) melden.
+Fehler/Wünsche bitte über das [Ticketsystem (GitHub)](https://github.com/BugBuster1701/docs/issues/new?title=%5BC3TDD%5D) melden.
