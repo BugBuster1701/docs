@@ -65,19 +65,19 @@
           "label": "Seite bearbeiten"
       },
       "autocover": {
-                "title": "Kochbuch TDD für Contao Erweiterungen",
-                "author": "BugBuster",
+                "title": "Testgetriebene Entwicklung für Contao 3 Erweiterungen (C3TDD)",
+                "author": "Glen Langer",
                 "font": {
                     "size": null,
                     "family": "Impact",
-                    "color": "#FFF"
+                    "color": "#b35418"
                 },
                 "size": {
                     "w": 1800,
                     "h": 2360
                 },
                 "background": {
-                    "color": "#b35418"
+                    "color": "#FFF"
                 }
       }
   }
