@@ -71,7 +71,7 @@ Die phpmd und phpmd-ci Aufgaben in der build.xml gehen davon aus, dass eine XML-
 	</ruleset>
 
 Das Build-Script erwartet die XML-Konfigurationsdatei unter ```build/phpmd.xml```.
-TODO: im Hauptverzeichnis.....
+Hier passen wir auch wieder das Build-Script an, wir legen die XML im Hauptverzeichnis an.
 
 Mehr Informationen kann man finden in der [Dokumentation](http://phpmd.org/documentation/creating-a-ruleset.html) von PHPMD.
 
@@ -81,7 +81,7 @@ Als Test starten man nun ```ant``` im Hauptverzeichnis der Erweiterung und schau
 
 ## Mögliche Probleme
 
-Hier die Probleme die bisher aufgetreten sind.
+Hier die Probleme die bisher bei mir aufgetreten sind.
 
 * [phpunit] Cannot open file "...../tests/bootstrap.php"
     * Legen wir vorerst eine leere PHP Datei an. Später nutzen wir das z.B. für ein autoloader, generiert mit ```phpab```
@@ -92,7 +92,7 @@ Hier die Probleme die bisher aufgetreten sind.
     * http://manuel-pichler.de/stuff/pdepend-2.1.0snapshot201505210758.phar funktioniert
     * d.h. Installation löschen und diese dafür nehmen, über apt-get wird phpmd auch gleich entfernt, also auch gleich die phar Version installieren.
 * [phpunit] PHP Fatal error:  Class 'PHP_Token_Stream' not found in /usr/share/php/PHP/CodeCoverage.php on line 692
-    * Installation über apt-get entfernen inkl. autoremove, und als phar neu installieren
+    * Installation über apt-get entfernen inkl. autoremove! und als phar neu installieren
 * [phpunit] Warning:	Deprecated configuration setting "strict" used
     * Zeile ```strict="true"``` entfernt
 * [phpdox] An error occured.... None of the candidate files found ... Using --skel might get you started.

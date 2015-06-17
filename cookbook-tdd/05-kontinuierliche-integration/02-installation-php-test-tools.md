@@ -12,6 +12,7 @@ Hier schon mal die Links zu den Projektseiten.
 - [PHPCPD](https://github.com/sebastianbergmann/phpcpd)
 - [phpDox](http://phpdox.de/)
 
+Nachtrag nach einigen Tests: Es empfiehlt sich die phar Varianten zu installieren. Die von Ubuntu sind manchmal recht alt und erzeugen Fehler. (siehe 6.3 Konfigurationen für die Testtools)
 
 ### PHPUnit
 
@@ -24,6 +25,10 @@ oder als phar:
     sudo mv phpunit.phar /usr/local/bin/phpunit
 
 Das installiert die aktuellste Version. Wer eine ältere Version benötigt, wird auf der Seite [phar.phpunit.de](https://phar.phpunit.de/) fündig. 
+
+Nachtrag: PHPUnit braucht für die Ausgaben "Xdebug":
+
+```sudo apt-get install php5-xdebug```
 
 ### phpab
 
