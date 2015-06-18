@@ -3,7 +3,7 @@
 This is the manual for users of Visitors. You can always find the latest 
 version on [docs.contao.ninja](https://docs.contao.ninja/).
 
-**Transfer from the Wiki is under construction.**
+> **todo** Transfer from the Wiki is under construction.
 
 {% include "SUMMARY.md" %}
 
