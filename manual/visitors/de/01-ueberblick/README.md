@@ -11,7 +11,7 @@ Tag sowie die jeweilige Gesamtzahl.
 Der Zugriffszähler wird, wie der Name schon sagt, bei jedem Zugriff erhöht. 
 Der Besucherzähler zeigt die Zahl der unterschiedlichen IP-Adressen, die 
 innerhalb von 30 Minuten eine oder mehrere Seiten angefordert haben auf dem sich 
-die Erweiterung befindet. (siehe dazu auch [Blockzeit](../05-feinheiten/02-feinheiten-besucherzaehler-definition.md)
+die Erweiterung befindet. (siehe dazu auch [Blockzeit](../05-feinheiten/02-feinheiten-besucherzaehler-definition.md))
 
 Visitors benutzt in Abhängigkeit die Erweiterung "Bot Detection". Damit wird verhindert, dass Zugriffe von Bots / Suchmaschinen gezählt werden. Eine 100%ige Sicherheit gibt es dabei natürlich nicht.
 
