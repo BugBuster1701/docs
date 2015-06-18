@@ -16,7 +16,8 @@ Beim "date" Insert-Tag ist noch ein optionaler Parameter möglich, um die Datums
 
 Als default wird die Systemeinstellung verwendet. Als Trennzeichen muss ein "::" verwendet werden. Ein komplettes Beispiel (hier mit Kategorie 1):
 
-    BestDay: {{visitors::1::bestday::date::j. F Y}} mit {{visitors::1::bestday::visits}} Besuchern (bei {{visitors::1::bestday::hits}} Hits)
+    BestDay: {{visitors::1::bestday::date::j. F Y}} mit {{visitors::1::bestday::visits}} Besuchern 
+    (bei {{visitors::1::bestday::hits}} Hits)
 
 ergibt zum Beispiel:
 

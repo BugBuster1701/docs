@@ -4,7 +4,6 @@ Als erstes wird über den Menüpunkt Besucher eine neue Besucher-Kategorie angel
 
 Danach wird ein Frontend-Modul angelegt und baut es in das Layout der Seite ein. (z.B. in 'left')
 
-Hier nun die einzelnen Schritte, jeweils mit den Default-Angaben. [Feinheiten]() werden später erklärt.
+Hier nun die einzelnen Schritte, jeweils mit den Default-Angaben. [Feinheiten](../05-feinheiten/README.md) werden später erklärt.
 
-- [ ] ToDo: Link setzen sobald Kapitel vorhanden
 
