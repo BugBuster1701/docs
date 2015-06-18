@@ -2,10 +2,11 @@
 
 This extension allows you to count hits and visits of your website.
 
-In the display appears the hits and visits from the current day, as well as the respective total. 
-In the backend there are a statistic overview.
+In the display appears the hits and visits from the current day, as well as the respective total. In the backend there are a statistic overview.
 
 ![Visitors Frontend](images/visitors_fe_all-en.jpg)
+
+Visitors used the extension "Bot Detection". This prevents counting of traffic from bots / search engines. But there is no 100% guarantee.
 
 ## Helpful links
 
