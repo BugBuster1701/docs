@@ -1,7 +1,8 @@
 # Installation von Visitors
 
 Es gibt derzeit mehrere Arten der Installation, hier ein kurzer Überblick.
-Hinweis: Visitors ist abhängig ist von den Erweiterungen "Bot Detection" und "Excel 95 Erzeuger (xls_export)", diese werden in den meisten Fällen automatisch mit installiert.
+
+**Hinweis:** Visitors ist abhängig von den Erweiterungen "Bot Detection" und "Excel 95 Erzeuger (xls_export)", diese werden in den meisten Fällen automatisch mit installiert.
 
 Link zu Packagist: [Visitors auf Packagist.org](https://packagist.org/packages/bugbuster/visitors)<br>
 Link zum ER2: [Visitors im ER2](http://www.contao.org/erweiterungsliste/view/visitors.html)
@@ -21,4 +22,4 @@ Eine manuelle Installation ist möglich, dazu die [ZIP-Datei](http://www.contao.
 Dadurch sollte ein Verzeichnis ```/system/modules/visitors``` angelegt worden sein.
 Danach wie dabei üblich ```/contao/install.php``` Aufrufen - Update Database durchführen.
 
-Achtung: Die Abhängigkeiten müssen dann ebenfalls manuell installiert werden!
+**Achtung:** Die Abhängigkeiten müssen dann ebenfalls manuell installiert werden!

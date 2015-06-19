@@ -1,3 +1,16 @@
 ## Table of contents
 
 * [Overview Visitors](01-overview/README.md)
+* [Installation of Visitors](02-installation/README.md)
+* [Overview Front end / Back end](03-overview-fe-be/README.md)
+    * [Back end](03-overview-fe-be/01-overview-back-end.md) 
+    * [Front end](03-overview-fe-be/02-overview-front-end.md)
+* [Using](04-using/README.md)
+    * [Create the category](04-using/01-create-category.md) 
+    * [Create new counter](04-using/02-create-counter.md) 
+    * [Create the front end module](04-using/03-create-front-end-module.md) 
+    * [Activate demo CSS file](04-using/04-demo-css-file.md)
+* [Technical details](05-technical-details/README.md)
+    * [Technical details category definition](05-technical-details/01-technical-details-category-definition.md) 
+    * [Technical details counter definition](05-technical-details/02-technical-details-counter-definition.md) 
+    * [Technical details front end module definition](05-technical-details/03-technical-details-front-end-module-definition.md)
