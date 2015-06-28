@@ -20,7 +20,7 @@ Visitors benutzt in Abhängigkeit die Erweiterung "Bot Detection". Damit wird ve
 Information | Link
 ----------- | ----
 Entwickler Webseite | [http://contao.ninja](http://contao.ninja)
-Link zum Extension Repository (ER2) | [contao.org ER2](https://contao.org/erweiterungsliste/view/visitors.de.html)
+Link zum Extension Repository (ER2) | [contao.org ER2](https://contao.org/de/erweiterungsliste/view/visitors.de.html)
 Link zum Extension Repository (Packagist) | [Packagist.org](https://packagist.org/packages/bugbuster/visitors)
 Den Entwickler unterstützen | [Amazon Wunschliste](http://www.amazon.de/wishlist/26HHEJOU03G76)
 Fehler / Wünsche melden | [GitHub](https://github.com/BugBuster1701/visitors/issues)

@@ -18,7 +18,7 @@ The counting is continued through the module! Who wants to use to display the in
 
 To determine the category ID, go into the category overview of the module with your mouse over the "i" or look at right behind the category name.
 
-> **todo** generate new image
+![Backend Visitor Category ID](images/visitors_en_backend_category_id.jpg)
 
 For category ID = 1 that would be like that:
 

@@ -20,7 +20,7 @@ Das Modul zählt und zeigt normalerweise die Werte an. Wer für die Anzeige die 
 
 Die "katid" ist die Kategorie-ID, in dem der Zähler angelegt wurde. Zur Ermittlung in die Kategorieübersicht gehen, dort steht die ID direkt hinter dem Kategorie-Namen.
 
-- [ ] ToDo: neues Bild generieren und einfügen
+![Backend Kategorie ID](images/visitors_de_backend_kategorie_id.jpg)
 
 Bei Kategorie-ID = 1 wäre das dann also beispielsweise:
 

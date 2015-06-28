@@ -15,7 +15,7 @@
     * [Technical details counter definition](05-technical-details/02-technical-details-counter-definition.md) 
     * [Technical details front end module definition](05-technical-details/03-technical-details-front-end-module-definition.md)
 * [Insert Tags](06-insert-tags/README.md)
-    * [Show the value](06-insert-tags/01-show-the-values.md)
+    * [Show the values](06-insert-tags/01-show-the-values.md)
     * [Count](06-insert-tags/02-count.md)
     * [More Insert Tags](06-insert-tags/03-more-insert-tags.md)
 * [Specific features](07-specific-features/README.md)
