@@ -4,7 +4,7 @@ There are currently several types of installation, here a short overview.
  
 **Note:** Visitors is dependent on the extensions "Bot Detection" and "Excel 95 writer (xls_export)", these are installed automatically in most cases.
 
-Link zu Packagist: [Visitors auf Packagist.org](https://packagist.org/packages/bugbuster/visitors)
+Link zu Packagist: [Visitors auf Packagist.org](https://packagist.org/packages/bugbuster/visitors)<br>
 Link zum ER2: [Visitors im ER2](https://contao.org/en/extension-list/view/visitors.html)
 
 ## Installation with the Composer client

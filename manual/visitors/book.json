@@ -10,7 +10,8 @@
   "plugins": [
       "richquotes",
       "edit-link",
-      "anchors"
+      "anchors",
+      "autocover"
   ],
   
   "_comment": "Links in template (null: default, false: remove, string: new value)",
@@ -69,6 +70,9 @@
       "richquotes" :
       {
             "todos" : true 
-      }
+      },
+      "autocover": {
+          "author": "Glen Langer"
+        }
   }
 }
