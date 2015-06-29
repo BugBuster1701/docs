@@ -10,7 +10,8 @@
   "plugins": [
       "richquotes",
       "edit-link",
-      "anchors"
+      "anchors",
+      "autocover"
   ],
   
   "_comment": "Links in template (null: default, false: remove, string: new value)",
@@ -54,7 +55,7 @@
     "headerTemplate": "<p style='text-align:center; color:black'>_TITLE_ - _SECTION_</p>",
 
     "_comment": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
-    "footerTemplate": "<p style='text-align:center; color:green'>Seite: _PAGENUM_</p>"
+    "footerTemplate": "<p style='text-align:center; color:green'>- _PAGENUM_ -</p>"
   },
   
   "_comment": "Global configuration for plugins",
@@ -65,6 +66,15 @@
               "en": "Edit This Page",
               "de": "Seite bearbeiten"
           }
-      }
+      },
+      "richquotes" :
+      {
+            "todos" : true 
+      },
+      "_comment": "not used (cover.jpg is self made), without this follow error messages",
+      "autocover": {
+          "title": "Visitors",
+          "author": "Glen Langer"
+        }
   }
 }

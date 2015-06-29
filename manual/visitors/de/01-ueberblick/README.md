@@ -11,14 +11,16 @@ Tag sowie die jeweilige Gesamtzahl.
 Der Zugriffszähler wird, wie der Name schon sagt, bei jedem Zugriff erhöht. 
 Der Besucherzähler zeigt die Zahl der unterschiedlichen IP-Adressen, die 
 innerhalb von 30 Minuten eine oder mehrere Seiten angefordert haben auf dem sich 
-die Erweiterung befindet. (siehe dazu auch Blockzeit)
+die Erweiterung befindet. (siehe dazu auch [Blockzeit](../05-feinheiten/02-feinheiten-besucherzaehler-definition.md))
+
+Visitors benutzt in Abhängigkeit die Erweiterung "Bot Detection". Damit wird verhindert, dass Zugriffe von Bots / Suchmaschinen gezählt werden. Eine 100%ige Sicherheit gibt es dabei natürlich nicht.
 
 ## Hilfreiche Links
 
 Information | Link
 ----------- | ----
 Entwickler Webseite | [http://contao.ninja](http://contao.ninja)
-Link zum Extension Repository (ER2) | [contao.org ER2](https://contao.org/erweiterungsliste/view/visitors.de.html)
+Link zum Extension Repository (ER2) | [contao.org ER2](https://contao.org/de/erweiterungsliste/view/visitors.de.html)
 Link zum Extension Repository (Packagist) | [Packagist.org](https://packagist.org/packages/bugbuster/visitors)
 Den Entwickler unterstützen | [Amazon Wunschliste](http://www.amazon.de/wishlist/26HHEJOU03G76)
 Fehler / Wünsche melden | [GitHub](https://github.com/BugBuster1701/visitors/issues)

@@ -21,7 +21,7 @@
     * [Hinweise zur Verzeichnisstruktur einer Erweiterung](06-automatische-tests/01-hinweise-verzeichnisstruktur.md) 
     * [Konfiguration von Ant](06-automatische-tests/02-konfiguration-ant.md)
     * [Konfigurationen für die Testtools](06-automatische-tests/03-konfigurationen-fuer-die-testtools.md)
-    * Jenkins Job Template
+    * [Konfigurationen Jenkins](06-automatische-tests/04-konfigurationen-jenkins.md)
 * [Testbeispiele](07-beispiele/README.md)
     * Lorem Coffee
 * [Online Testplattformen](10-online-testplattformen/README.md)
