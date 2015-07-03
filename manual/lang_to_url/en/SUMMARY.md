@@ -2,4 +2,5 @@
 
 * [Overview Add Language To Url](01-overview/README.md)
 * [Installation of Add Language To Url](02-installation/README.md)
-* [Configuration]()
+* [Functions](03-functions/README.md)
+* [Configuration](04-configuration/README.md)
