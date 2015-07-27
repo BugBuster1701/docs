@@ -1,0 +1,9 @@
+# Handbuch für die Contao Erweiterung Banner
+
+Dies ist das Handbuch für Anwender von der Erweiterung Banner. Die neuste Version
+ist unter [docs.contao.ninja](http://docs.contao.ninja/) zu finden.
+
+
+{% include "SUMMARY.md" %}
+
+{% include "../../LICENSE.md" %}
