@@ -4,7 +4,7 @@ Für das Frontend wird eine CSS-Datei als Beispiel für eine Anzeigeformatierung
 
 * mod_banner_fe.css
 
-Diese Datei liegt im Unterverzeichnis `assets`. Zur Verwendung siehe [CSS-Datei](../04-erste-schritte/04-demo-css-datei.md)
+Diese Datei liegt im Unterverzeichnis `assets`. Zur Verwendung siehe [CSS-Datei][1]
 
 
 ### Anzeige eines Banners
@@ -16,7 +16,7 @@ Diese Datei liegt im Unterverzeichnis `assets`. Zur Verwendung siehe [CSS-Datei]
 3. Banner Kommentar
 4. Banner Name
 
-Genaueres dazu siehe bei [Erste Schritte](../04-erste-schritte/README.md) oder [Feinheiten](../05-feinheiten/README.md)
+Genaueres dazu siehe bei [Erste Schritte][2] oder [Feinheiten][3]
 
 
 ### Anzeige alle Banner
@@ -31,6 +31,10 @@ In diesem Beispiel sind 3 Banner definiert worden,
 2. einmal Flash
 3. einmal ein Text Banner.
 
-Genaueres dazu siehe bei [Erste Schritte](../04-erste-schritte/README.md) oder [Feinheiten](../05-feinheiten/README.md)
+Genaueres dazu siehe bei [Erste Schritte][2] oder [Feinheiten][3]
 
 **Achtung**: Die Erweiterung für Contao 4 wird keine Flash Banner mehr unterstützen.
+
+[1]: ../04-erste-schritte/04-demo-css-datei.md
+[2]: ../04-erste-schritte/README.md
+[3]: ../05-feinheiten/README.md

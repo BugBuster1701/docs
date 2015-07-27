@@ -18,12 +18,12 @@ Eine 100%ige Sicherheit gibt es dabei natürlich nicht.
 
 Information | Link
 ----------- | ----
-Entwickler Webseite | [http://contao.ninja](http://contao.ninja)
-Link zum Extension Repository (ER2) | [contao.org ER2](https://contao.org/de/erweiterungsliste/view/banner.de.html)
-Link zum Extension Repository (Packagist) | [Packagist.org](https://packagist.org/packages/bugbuster/banner)
-Den Entwickler unterstützen | [Amazon Wunschliste](http://www.amazon.de/wishlist/26HHEJOU03G76)
-Fehler / Wünsche melden | [GitHub](https://github.com/BugBuster1701/banner/issues)
-Contao Forum für Fragen | [community.contao.org](https://community.contao.org/de/forumdisplay.php?24-banner)
+Entwickler Webseite | [http://contao.ninja][1]
+Link zum Extension Repository (ER2) | [contao.org ER2][2]
+Link zum Extension Repository (Packagist) | [Packagist.org][3]
+Den Entwickler unterstützen | [Amazon Wunschliste][4]
+Fehler / Wünsche melden | [GitHub][5]
+Contao Forum für Fragen | [community.contao.org][6]
 
 ## Übersetzungen
 
@@ -32,6 +32,15 @@ mit Transifex verwaltet. Um eine neue Übersetzung erstellen oder um eine
 vorhandene zu korrigieren, müssen Sie sich bei transifex.com registrieren.
 Basissprache ist Englisch.
 
-Projekt Link: [https://www.transifex.com/projects/p/contao-banner/](https://www.transifex.com/projects/p/contao-banner/)
+Projekt Link: [https://www.transifex.com/projects/p/contao-banner/][7]
 
-Howto (english): [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/faq/#translating)
+Howto (english): [http://docs.transifex.com/faq/#translating][8]
+
+[1]: http://contao.ninja
+[2]: https://contao.org/de/erweiterungsliste/view/banner.de.html
+[3]: https://packagist.org/packages/bugbuster/banner
+[4]: http://www.amazon.de/wishlist/26HHEJOU03G76
+[5]: https://github.com/BugBuster1701/banner/issues
+[6]: https://community.contao.org/de/forumdisplay.php?24-banner
+[7]: https://www.transifex.com/projects/p/contao-banner/
+[8]: http://docs.transifex.com/faq/#translating
