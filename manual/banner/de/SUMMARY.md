@@ -21,7 +21,7 @@
 * [Tutorials](07-tutorials/README.md)
     * [Banner Block Time für Views ändern]()
     * [Bot Detection abschalten](07-besonderheiten/03-bot-detection-abschalten.md)
-    * [Einsatz als Linkliste]()
+    * [Einsatzvon Textbanner als Linkliste]()
 * [Datenschutz](10-datenschutz/README.md)
     * [Datenerfassung](10-datenschutz/01-datenerfassung.md)
     * [Datenspeicherung](10-datenschutz/02-datenspeicherung.md)
