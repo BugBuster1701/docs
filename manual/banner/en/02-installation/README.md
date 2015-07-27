@@ -4,8 +4,8 @@ There are currently several types of installation, here a short overview.
 
 **Note:** Banner is dependent on the extension "Bot Detection", this is installed automatically in most cases.
 
-Link to Packagist: [Banner on Packagist.org](https://packagist.org/packages/bugbuster/banner)<br>
-Link to ER2: [Banner on ER2](https://contao.org/en/extension-list/view/banner.html)
+Link to Packagist: [Banner on Packagist.org][1]<br>
+Link to ER2: [Banner on ER2][2]
 
 ## Installation with the Composer client
 
@@ -19,8 +19,11 @@ The dependencies will be installed automatically.
 
 ## Installation manual
 
-A manual installation is possible. Download the [ZIP](https://contao.org/en/extension-list/view/banner.html) file from Extension Repository, unzip and transfer it.
+A manual installation is possible. Download the [ZIP][2] file from Extension Repository, unzip and transfer it.
 A directory should have been created "/system/modules/banner".
 Then call /contao/install.php - Perform Update Database.
 
 **Attention:** The dependencies must then also be installed manually!
+
+[1]: https://packagist.org/packages/bugbuster/banner
+[2]: https://contao.org/en/extension-list/view/banner.html

@@ -15,12 +15,12 @@ of traffic from bots / search engines. But there is no 100% guarantee.
 
 Information | Link
 ----------- | ----
-Developer Website | [http://contao.ninja](http://contao.ninja)
-Link to Extension Repository (ER2) | [contao.org ER2](https://contao.org/en/extension-list/view/banner.en.html)
-Link to Extension Repository (Packagist) | [Packagist.org](https://packagist.org/packages/bugbuster/banner)
-Donate the developer | [Amazon wish list (german)](http://www.amazon.de/wishlist/26HHEJOU03G76)
-Report Issues / Feature Requests | [GitHub](https://github.com/BugBuster1701/banner/issues)
-Contao forum for questions | [community.contao.org](https://community.contao.org/en/forumdisplay.php?143)
+Developer Website | [http://contao.ninja][1]
+Link to Extension Repository (ER2) | [contao.org ER2][2]
+Link to Extension Repository (Packagist) | [Packagist.org][3]
+Donate the developer | [Amazon wish list (german)][4]
+Report Issues / Feature Requests | [GitHub][5]
+Contao forum for questions | [community.contao.org][6]
 
 
 ## Translations
@@ -28,6 +28,15 @@ Contao forum for questions | [community.contao.org](https://community.contao.org
 Translations of the texts in the back end and the front end are managed with using of Transifex.
 To create a new translation or to help to maintain an existing one, please register at transifex.com.
 
-Projekt Link: [https://www.transifex.com/projects/p/contao-visitors/](https://www.transifex.com/projects/p/contao-banner/)
+Projekt Link: [https://www.transifex.com/projects/p/contao-visitors/][7]
 
-Howto (english): [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/faq/#translating)
+Howto (english): [http://docs.transifex.com/faq/#translating][8]
+
+[1]: http://contao.ninja
+[2]: https://contao.org/en/extension-list/view/banner.en.html
+[3]: https://packagist.org/packages/bugbuster/banner
+[4]: http://www.amazon.de/wishlist/26HHEJOU03G76
+[5]: https://github.com/BugBuster1701/banner/issues
+[6]: https://community.contao.org/en/forumdisplay.php?143
+[7]: https://www.transifex.com/projects/p/contao-banner/
+[8]: http://docs.transifex.com/faq/#translating
