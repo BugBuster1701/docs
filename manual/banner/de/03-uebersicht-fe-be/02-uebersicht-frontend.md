@@ -26,6 +26,7 @@ Mit 'alle Banner' ist hier gemeint, alle Banner der gewählten Kategorie.
 ![Anzeige alle Banner](images/banner_de_frontend_alle_banner.jpg)
 
 In diesem Beispiel sind 3 Banner definiert worden,
+
 1. einmal Grafik
 2. einmal Flash
 3. einmal ein Text Banner.

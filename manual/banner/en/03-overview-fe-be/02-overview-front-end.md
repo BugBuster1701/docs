@@ -26,6 +26,7 @@ With 'all Banner' is meant here, all banners in the selected category.
 ![Display all banner](images/banner_en_frontend_all_banner.jpg)
 
 In this example, 3 banners have been defined,
+
 1. Graphic Banner
 2. Flash Banner
 3. Text Banner
