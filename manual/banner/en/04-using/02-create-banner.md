@@ -28,7 +28,7 @@ After selecting it appear the appropriate form fields.
     * Here you can now select the banner file.
 5. Banner width and height
     * To customize the banner size, you can specify the banner width and / or the banner height in pixels.
-    * CAUTION: Animated GIFs are for size definitions through the GD recalculation unfortunately to still images.
+    * **CAUTION:** Animated GIFs are for size definitions through the GD recalculation unfortunately to still images.
 6. Banner Comment
     * The first line will be installed and displayed as a "title" tag in the HTML source code if you move the cursor over the banner graphic.
 7. Published

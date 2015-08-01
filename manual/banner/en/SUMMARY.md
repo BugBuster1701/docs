@@ -15,7 +15,6 @@
     * [Technical details banner definition](05-technical-details/02-technical-details-banner-definition.md)
     * [Technical details front end module definition](05-technical-details/03-technical-details-front-end-module-definition.md)
 * [Specific features](06-specific-features/README.md)
-    * [No counting](06-specific-features/01-no-counting.md)
     * [Exception: No active banners defined and no default banner defined]()
     * [Special case: Multiple Banner modules on one page]()
 * [Tutorials](07-tutorials/README.md)
