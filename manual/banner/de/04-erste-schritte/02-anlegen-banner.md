@@ -116,4 +116,4 @@ Ein Flash Fallback auf eine Bilddatei ist möglich, siehe im Abschnitt
 
 
 
-[1]: 02-feinheiten-banner-definition.md#flash-fallback-bild
+[1]: ../05-feinheiten/02-feinheiten-banner-definition.md#flash-fallback-bild
