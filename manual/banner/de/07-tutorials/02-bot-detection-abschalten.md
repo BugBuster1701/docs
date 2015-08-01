@@ -9,6 +9,6 @@ sondern muss über die localconfig.php passieren.
 Folgender Eintrag ans Ende der localconfig.php (nach: ### INSTALL SCRIPT STOP ### )
 bewirkt das Ausschalten:
 
-``php
+```php
 $GLOBALS['TL_CONFIG']['mod_banner_bot_check'] = false;
 ```

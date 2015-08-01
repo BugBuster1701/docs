@@ -22,11 +22,11 @@ Zur Auswahl stehen 2 Templates.
 Beide Templates unterstützen Bild, Flash und Textbanner.
 
 Es können eigene Templates erstellt werden. Diese müssen als Dateiname anfangen
-mit "mod_banner_list_" und die Endung ".xhmtl" / ".html5" haben. <br>
-Beispiel: "mod_banner_list_special.xhtml"
+mit `mod_banner_list_` und die Endung ".xhmtl" / ".html5" haben. <br>
+Beispiel: `mod_banner_list_special.xhtml`
 
 Am besten legt man sich über das Backend eine Kopie eines der Templates
-"mod_banner_list_..." an und nennt es dabei um, z.B. in "mod_banner_list_special"
+`mod_banner_list_...` an und nennt es dabei um, z.B. in `mod_banner_list_special`
 (die Endung wird automatisch angehangen, so wie beim Original)
 
 

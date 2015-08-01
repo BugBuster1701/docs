@@ -1,6 +1,6 @@
 # Überblick
 
-Banner ist eine Erweiterung zur Anzeige von Banner Bilder und Text mit einer
+Banner ist eine Erweiterung zur Anzeige von Banner Bilder und Texten mit einer
 einfachen Form der Gewichtung über Prioritäten.
 
 Im Backend gibt es eine Statistikübersicht.
