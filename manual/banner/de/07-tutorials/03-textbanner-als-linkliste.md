@@ -63,6 +63,10 @@ Hier das geänderte Template. Das wurde als "mod_banner_list_linkliste.html5"
 <!-- indexer::continue -->
 ```
 
+**Note**: Die Datei "files/weblink.png" durch eine eigene ersetzen.
+
+> **todo** Link zum Download des angepassten Templates.
+
 
 ### Frontend Modul
 
