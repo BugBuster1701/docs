@@ -64,9 +64,9 @@ via back end in templates as usual.
 <!-- indexer::continue -->
 ```
 
-**Note**: Change the file "files/weblink.png" with your own.
+> **Note** Change the file "files/weblink.png" with your own.
 
-> **todo** Link to download the adapted template.
+Download of the template: [mod_banner_list_linklist.html.zip][1]
 
 
 ### Front end module
@@ -83,3 +83,6 @@ The front end module is created as described, special features here are then:
 
 Then as element type "module" Install the front end module in the article.
 The "Links" in the picture is still an extra header element in the article.
+
+
+[1]: https://contao.ninja/banner_modul.html?file=files/module/mod_banner_list_linklist.html5.zip

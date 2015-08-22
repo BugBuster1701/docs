@@ -63,9 +63,9 @@ Hier das geänderte Template. Das wurde als "mod_banner_list_linkliste.html5"
 <!-- indexer::continue -->
 ```
 
-**Note**: Die Datei "files/weblink.png" durch eine eigene ersetzen.
+> **Note** Die Datei "files/weblink.png" durch eine eigene Bilddatei ersetzen.
 
-> **todo** Link zum Download des angepassten Templates.
+Download des Templates: [mod_banner_list_linklist.html.zip][1]
 
 
 ### Frontend Modul
@@ -82,3 +82,6 @@ Das Frontendmodul wird wie beschrieben angelegt, Besonderheiten hier sind dann:
 
 Als Elementyp "Modul" dann im Artikel einbauen. Das "Links" im Bild ist noch ein
 extra Überschrift Element im Artikel.
+
+
+[1]: https://contao.ninja/banner_modul.html?file=files/module/mod_banner_list_linklist.html5.zip

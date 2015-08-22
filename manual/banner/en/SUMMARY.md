@@ -19,7 +19,7 @@
     * [Special case: Multiple Banner modules on one page](06-specific-features/02-multiple-banner-modules-on-one-page.md)
 * [Tutorials](07-tutorials/README.md)
     * [Change Banner Block Time for Views](07-tutorials/01-banner-block-time.md)
-    * [Bot detection off](07-specific-features/02-bot-detection-off.md)
+    * [Bot detection off](07-tutorials/02-bot-detection-off.md)
     * [Use text banners as a link list](07-tutorials/03-textbanner-as-a-link-list.md)
 * [Data privacy](10-data-privacy/README.md)
     * [Data collection](10-data-privacy/01-data-collection.md)
