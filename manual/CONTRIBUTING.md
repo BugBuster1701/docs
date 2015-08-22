@@ -2,19 +2,20 @@
 
 If you found a mistake, write an [issue][2] or send a pull request.
 
-To contribute, e.g. translation, fork this Git repository, make a new branch, clone the branch to 
-your local computer, and edit the `*.md` files. After this, send me a pull 
+To contribute, e.g. translation, fork this Git repository, make a new branch, clone the branch to
+your local computer, and edit the `*.md` files. After this, send me a pull
 request of your committed files.
 
-The source files are written in Markdown and converted into HTML using the 
+The source files are written in Markdown and converted into HTML using the
 GitHub markdown parser, therefore you can use the [GitHub flavored syntax][1].
+
 
 ## General rules
 
 * Only use ATX style headlines (e.g. `# H1` or `### H3`)
 * Always add two empty lines above each headline
 * Always add links at the bottom of the document (e.g. `[Google][1]`)
-* Use can use plain HTML markup to render tables
+* You can use plain HTML markup to render tables
 * Add line breaks after 80 characters in paragraphs
 
 
