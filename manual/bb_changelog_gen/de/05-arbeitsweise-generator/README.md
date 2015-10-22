@@ -1,9 +1,10 @@
 # Arbeitsweise des Generators
 
 Gesucht werden alle Meilensteine mit mindestens einem geschlossenen Ticket.
-Geschlosene Meilensteine bekommen das Schließdatum angehangen, bei offenen
-Meilensteinen, die mindestens ein geschlossenes Ticket haben, wird vom Datum
-das aktuelle Jahr genommen, Monat und Tag durch "XX" ersetzt.
+Geschlossene Meilensteine bekommen an den Namen das Schließdatum angehangen.
+
+Bei offenen Meilensteinen, die mindestens ein geschlossenes Ticket haben,
+wird vom Datum das aktuelle Jahr genommen, Monat und Tag durch "XX" ersetzt.
 
 Sortiert werden die Meilensteine absteigend nach Schließdatum.
 
@@ -24,8 +25,8 @@ Defect | Feature
 
 ## Ausschließen von Tickets
 
-Weitere Label-Namen werden gesucht die als Ausschlussmerkmal dienen. Die können als
-einziges Label oder zusätzliches Label gesetzt sein:
+Weitere Label-Namen werden gesucht die als Ausschlussmerkmal dienen.
+Diese können als einziges Label oder zusätzliches Label gesetzt sein:
 
 Exclude (klein) | Exclude (groß)
 --------------- | --------------
@@ -38,7 +39,7 @@ wontfix | Wontfix
 ## Tipp
 
 Die Changelog am besten generieren nach Schließung des Meilensteines für das
-eine neue Release veröffentlicht werden soll und anlegen des Tags für diese
+eine neue Release veröffentlicht werden soll und vor anlegen des Tags für dieses
 Release.
 
-Bei Zwischenversionen natürlich auch zwischendurch möglich.
+Bei Zwischenversionen ist das natürlich auch zwischendurch möglich.
