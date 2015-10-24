@@ -1,4 +1,4 @@
-# Manual For Contao Extension GitHub Changelog Generator
+# Manual For Extension GitHub Changelog Generator
 
 This is the manual for users on [docs.contao.ninja](http://docs.contao.ninja/).
 
