@@ -8,7 +8,7 @@ Dazu werden ``sudo`` Rechte benötigt.
 Die Nutzung ist auch ohne Installation möglich, siehe Kapitel "[Nutzung][2]".
 
 
-## Deinstallation von: GitHub Changelog Generator
+# Deinstallation von: GitHub Changelog Generator
 
 Aufruf der ``uninstall.sh``, diese löscht die Dateien aus ``/usr/local/[lib|bin|man]``.
 Dazu werden ``sudo`` Rechte benötigt.
