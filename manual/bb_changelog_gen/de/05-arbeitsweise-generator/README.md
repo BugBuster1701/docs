@@ -9,18 +9,18 @@ wird vom Datum das aktuelle Jahr genommen, Monat und Tag durch "XX" ersetzt.
 Sortiert werden die Meilensteine absteigend nach Schließdatum.
 
 
-## Unterscheidung "Bug" / "Feature"
+## Unterscheidung "Bug" / "Feature" und weitere Fälle
 
-Die Labels der Tickets werden untersucht, um die Tickets als Bug oder Feature zu
-identifizieren zwecks getrennter Auflistung.
+Die Labels der Tickets werden untersucht, um die Tickets als Bug, Feature,
+Dokumentation oder Wartung zu identifizieren zwecks getrennter Auflistung.
 Dazu werden folgende Label-Namen gesucht:
 
-Bug | Feature
---- | -------
-bug | enhancement
-Bug | Enhancement
-defect | feature
-Defect | Feature
+Bug | Feature | Dokumentation | Wartung
+--- | ------- | ------------- | -------
+bug | enhancement | doc | maintenance
+Bug | Enhancement | Doc | Maintenance
+defect | feature | documentation | service
+Defect | Feature | Documentation | Service
 
 
 ## Ausschließen von Tickets

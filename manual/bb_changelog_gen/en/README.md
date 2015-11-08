@@ -1,4 +1,4 @@
-# User guide for the Contao extension: GitHub Changelog Generator
+# User guide for the tool: GitHub Changelog Generator
 
 This is the manual for users of "GitHub Changelog Generator".  
 You can always find the latest version on: [docs.contao.ninja][1]

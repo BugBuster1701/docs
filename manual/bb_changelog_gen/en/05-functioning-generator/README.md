@@ -9,18 +9,19 @@ In open milestones, with at least one closed ticket, is used the current year,
 The milestones are sorted descending by closing-date.
 
 
-## Determination "Bug" / "Feature"
+## Determination "Bug" / "Feature" and other cases
 
-The labels of the tickets will be analyzed to identify the tickets as a bug or
-feature for the purpose of separate collection.
+The labels of the tickets will be analyzed to identify the tickets as a bug, a  
+feature, a documentation improvement or as a maintenance case for the purpose
+of separate collection.
 Therefore the following label names be searched:
 
-Bug | Feature
---- | -------
-bug | enhancement
-Bug | Enhancement
-defect | feature
-Defect | Feature
+Bug | Feature | Documentation | Maintenance
+--- | ------- | ------------- | -----------
+bug | enhancement | doc | maintenance
+Bug | Enhancement | Doc | Maintenance
+defect | feature | documentation | service
+Defect | Feature | Documentation | Service
 
 
 ## Exclude Tickets

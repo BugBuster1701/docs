@@ -1,4 +1,4 @@
-# Handbuch für die Contao Erweiterung: GitHub Changelog Generator
+# Handbuch für das Tool: GitHub Changelog Generator
 
 Dies ist das Handbuch für Anwender von "GitHub Changelog Generator".
 Die neuste Version ist unter [docs.contao.ninja][1] zu finden.
