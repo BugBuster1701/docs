@@ -3,6 +3,7 @@
 Es gibt derzeit mehrere Arten der Installation, hier ein kurzer Überblick.
 
 Link zu Packagist: [Enhanced error.log auf Packagist.org][1]
+
 Link zum ER2: [Enhanced error.log im ER2][2]
 
 ## Installation über Composer Client
