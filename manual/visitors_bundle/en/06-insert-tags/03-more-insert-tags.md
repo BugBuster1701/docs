@@ -1,6 +1,6 @@
 ## More Insert Tags
 
-There are Insert Tags for display the values of the day with the most visitors.
+There are Insert Tags for display the values of the day with the most visitors. 
 ```
 	 {{visitors::catid::bestday::date}}   - Day (Date) with the most visitors
 	 {{visitors::catid::bestday::visits}} - Number of visitors of the day with most visitors
@@ -10,8 +10,8 @@ There are Insert Tags for display the values of the day with the most visitors.
 	 {{cache_visitors::catid::bestday::visits}}
 	 {{cache_visitors::catid::bestday::hits}}
 ```
-The "date" insert-tag has an optional parameter to format the date output.
-(m.d.Y , Y-m-d, etc.) The system setting is used as default.
+The "date" insert-tag has an optional parameter to format the date output. 
+(m.d.Y , Y-m-d, etc.) The system setting is used as default. 
 As a separator, a "::" are used.
 
 A complete example (with category 1):  

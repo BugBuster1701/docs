@@ -2,13 +2,13 @@
 
 This extension allows you to count hits and visits of your website.
 
-In the display appears the hits and visits from the current day, as well as the
+In the display appears the hits and visits from the current day, as well as the 
 respective total. In the backend there are a statistic overview.
 
 ![Visitors Frontend](images/visitors_fe_all-en.jpg)
 
-Visitors Bundle used the extension "BotDetection Bundle".
-This prevents counting of traffic from bots / search engines.
+Visitors Bundle used the extension "BotDetection Bundle". 
+This prevents counting of traffic from bots / search engines. 
 But there is no 100% guarantee.
 
 ## Helpful links
@@ -23,7 +23,7 @@ Contao forum for questions | [community.contao.org][5]
 
 ## Translations
 
-Translations of the texts in the Backend and the frontend  are managed with using of Transifex.
+Translations of the texts in the Backend and the frontend  are managed with using of Transifex. 
 To create a new translation or to help to maintain an existing one, please register at transifex.com.
 
 Projekt Link: [https://www.transifex.com/projects/p/contao-visitors/][6]

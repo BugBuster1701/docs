@@ -1,21 +1,21 @@
 # Überblick
 
-Visitors Bundle, im weiterem kurz Visitors, ist eine Erweiterung welche die
-Zugriffe (Hits) und Besucher (Visits) zählt und zur Anzeige bringen kann.
+Visitors Bundle, im weiterem kurz Visitors, ist eine Erweiterung welche die 
+Zugriffe (Hits) und Besucher (Visits) zählt und zur Anzeige bringen kann. 
 Im Backend gibt es eine Statistikübersicht.
 
 ![Visitors Frontend](images/visitors_fe_all.jpg)
 
-Dabei wird in der Anzeige getrennt angezeigt die Zugriffe/Besucher vom aktuellem
+Dabei wird in der Anzeige getrennt angezeigt die Zugriffe/Besucher vom aktuellem 
 Tag sowie die jeweilige Gesamtzahl.
 
-Der Zugriffszähler wird, wie der Name schon sagt, bei jedem Zugriff erhöht.
-Der Besucherzähler zeigt die Zahl der unterschiedlichen IP-Adressen, die
-innerhalb von 30 Minuten eine oder mehrere Seiten angefordert haben auf dem sich
+Der Zugriffszähler wird, wie der Name schon sagt, bei jedem Zugriff erhöht. 
+Der Besucherzähler zeigt die Zahl der unterschiedlichen IP-Adressen, die 
+innerhalb von 30 Minuten eine oder mehrere Seiten angefordert haben auf dem sich 
 die Erweiterung befindet. (siehe dazu auch [Blockzeit][1])
 
-Visitors benutzt in Abhängigkeit die Erweiterung "BotDetection Bundle".
-Damit wird verhindert, dass Zugriffe von Bots / Suchmaschinen gezählt werden.
+Visitors benutzt in Abhängigkeit die Erweiterung "BotDetection Bundle". 
+Damit wird verhindert, dass Zugriffe von Bots / Suchmaschinen gezählt werden. 
 Eine 100%ige Sicherheit gibt es dabei natürlich nicht.
 
 ## Hilfreiche Links
@@ -30,9 +30,9 @@ Contao Forum für Fragen | [community.contao.org][6]
 
 ## Übersetzungen
 
-Die Übersetzungen der Texte von Visitors im Backend und Frontend werden mit
-Transifex verwaltet. Um eine neue Übersetzung erstellen oder um eine vorhandene
-zu korrigieren, müssen Sie sich bei transifex.com registrieren.
+Die Übersetzungen der Texte von Visitors im Backend und Frontend werden mit 
+Transifex verwaltet. Um eine neue Übersetzung erstellen oder um eine vorhandene 
+zu korrigieren, müssen Sie sich bei transifex.com registrieren. 
 Basissprache ist Englisch.
 
 Projekt Link: [https://www.transifex.com/projects/p/contao-visitors-bundle/][7]

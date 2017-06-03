@@ -1,6 +1,6 @@
 ## Weitere Insert-Tags
 
-Es gibt Insert-Tags zum Anzeigen der Werte vom Tag, an dem die meisten Besucher
+Es gibt Insert-Tags zum Anzeigen der Werte vom Tag, an dem die meisten Besucher 
 gezählt wurden.
 ```
     {{visitors::katid::bestday::date}}   - Tag (Datum) mit den meisten Besuchern
@@ -13,10 +13,10 @@ bzw.
     {{cache_visitors::katid::bestday::visits}}
     {{cache_visitors::katid::bestday::hits}}
 ```
-Beim "date" Insert-Tag ist noch ein optionaler Parameter möglich, um die
+Beim "date" Insert-Tag ist noch ein optionaler Parameter möglich, um die 
 Datumsausgabe zu formatieren. (m.d.Y , Y-m-d, etc.)
 
-Als default wird die Systemeinstellung verwendet. Als Trennzeichen muss ein "::"
+Als default wird die Systemeinstellung verwendet. Als Trennzeichen muss ein "::" 
 verwendet werden. Ein komplettes Beispiel (hier mit Kategorie 1):
 ```
     BestDay: {{visitors::1::bestday::date::j. F Y}} mit {{visitors::1::bestday::visits}} Besuchern

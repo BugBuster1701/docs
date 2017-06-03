@@ -1,7 +1,7 @@
 ## Create new counter
 
-In the category list now clicking on Edit (pencil) of the category.
-Now, either click the 'New counter' and then the arrow icon, or click the plus in the head of the category:
+In the category list now clicking on Edit (pencil) of the category. 
+Now, either click the 'New counter' and then the arrow icon, or click the plus in the head of the category: 
 
 ![New Counter](images/visitors_en_backend_counter_new.jpg)
 

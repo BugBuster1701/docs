@@ -4,7 +4,7 @@ There are two types of installation.
 * with the Contao-Manger, only for Contao Managed-Editon
 * via the command line, for Contao Standard-Edition and Managed-Editon
 
-**Note:** Visitors is dependent on the extensions "BotDetection Bundle" and
+**Note:** Visitors is dependent on the extensions "BotDetection Bundle" and 
 "phpoffice/phpexcel", these are installed automatically in most cases.
 
 Link to Packagist: [Visitors on Packagist.org][1]

@@ -12,7 +12,7 @@ The Visitor Statistics module can be found under System -> Visitor Statistics
 
 ![Backend Visitor Statistics](images/visitors_en_backend_visitor_statistics.jpg)
 
-It shows the statistics for the created counter. If you have created multiple
+It shows the statistics for the created counter. If you have created multiple 
 counters, for a multi domain installation, the counter can be selected.
 
 A selection of the statistics:

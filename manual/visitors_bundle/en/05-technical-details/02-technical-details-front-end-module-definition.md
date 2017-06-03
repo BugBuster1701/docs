@@ -2,7 +2,7 @@
 
 ### Templates
 
-Each front end module can be assigned its own Template.
+Each front end module can be assigned its own Template. 
 Four different templates are included.
 
 * `mod_visitors_fe_all`
@@ -14,7 +14,7 @@ Four different templates are included.
 * `mod_visitors_fe_invisible`
     * Here, nothing is displayed. This template is used for a pure counting.
 
-For own Templates, the template files must start with `mod_visitors_fe_` and end
+For own Templates, the template files must start with `mod_visitors_fe_` and end 
 with `.html5`.
 
 ### Show to guests only
@@ -34,7 +34,7 @@ You can set a custom "UserAgent String" in your browser and in the visitors modu
 In the field: "No counting for this HTTP_USER_AGENT partial identifier", you can enter a unique identifier.<br>
 Example: CTISOK
 
-In your browser, an add-on should be used. For Firefox that would, for example,
+In your browser, an add-on should be used. For Firefox that would, for example, 
 the [User Agent Switcher][1]
 
 

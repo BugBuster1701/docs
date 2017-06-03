@@ -12,8 +12,8 @@ Das Besucherstatistik Modul ist unter System -> Besucherstatistik zu finden.
 
 ![Backend Besucherstatistik](images/visitors_de_backend_besucherstatistik.jpg)
 
-Es zeigt dann die Statistiken für den angelegten Besucherzähler.
-Hat man mehrere angelegt, z.B. für eine Multidomain Installation, kann der
+Es zeigt dann die Statistiken für den angelegten Besucherzähler. 
+Hat man mehrere angelegt, z.B. für eine Multidomain Installation, kann der 
 Besucherzähler ausgewählt werden.
 
 Eine Auswahl der Statistiken:
