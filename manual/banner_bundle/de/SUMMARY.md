@@ -1,7 +1,7 @@
 ## Inhaltsverzeichnis
 
-* [Überblick Banner](01-ueberblick/README.md)
-* [Installation von Banner](02-installation/README.md)
+* [Überblick Banner Bundle](01-ueberblick/README.md)
+* [Installation von Banner Bundle](02-installation/README.md)
 * [Übersicht Frontend / Backend](03-uebersicht-fe-be/README.md)
     * [Backend](03-uebersicht-fe-be/01-uebersicht-backend.md)
     * [Frontend](03-uebersicht-fe-be/02-uebersicht-frontend.md)
