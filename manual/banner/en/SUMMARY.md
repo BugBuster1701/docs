@@ -1,6 +1,6 @@
 ## Table of contents
 
-* [Overview Visitors](01-overview/README.md)
+* [Overview Banner](01-overview/README.md)
 * [Installation of Banner](02-installation/README.md)
 * [Overview Front end / Back end](03-overview-fe-be/README.md)
     * [Back end](03-overview-fe-be/01-overview-back-end.md)
