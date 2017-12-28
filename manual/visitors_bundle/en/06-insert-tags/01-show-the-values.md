@@ -7,7 +7,10 @@
 	 {{visitors::catid::totalhit}}
 	 {{visitors::catid::todayvisit}}
 	 {{visitors::catid::todayhit}}
-	 {{visitors::catid::averagevisits}}
+   {{visitors::katid::yesterdayvisit}}
+   {{visitors::katid::yesterdayhit}}
+   {{visitors::katid::averagevisits}}
+   {{visitors::katid::pagehits}}
 ```
 Insert Tag  can be extended with prefix 'cache_'. Thus, these then cache resistant. 
 This means that when a page comes from the Contao cache, then previously are 

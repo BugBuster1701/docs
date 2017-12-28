@@ -1,4 +1,4 @@
-# Manual For Contao 4 extension Visitors Bundle
+# Manual for Contao 4 extension Visitors Bundle
 
 This is the manual for users on [docs.contao.ninja](http://docs.contao.ninja/).
 

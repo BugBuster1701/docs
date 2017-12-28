@@ -9,7 +9,10 @@ Es gibt folgende Insert-Tags zum Anzeigen der Werte:
     {{visitors::katid::totalhit}}
     {{visitors::katid::todayvisit}}
     {{visitors::katid::todayhit}}
+    {{visitors::katid::yesterdayvisit}}
+    {{visitors::katid::yesterdayhit}}
     {{visitors::katid::averagevisits}}
+    {{visitors::katid::pagehits}}
 ```
 Die Insert-Tags können um den Präfix 'cache_' erweitert werden, damit sind diese 
 dann auch  sicher vor dem Cache. Das bedeutet, dass selbst wenn die Seite aus 
