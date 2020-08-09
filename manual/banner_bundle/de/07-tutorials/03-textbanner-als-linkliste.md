@@ -32,7 +32,7 @@ noch angepasst werden.
 ### Template anpassen
 
 Dazu wurde das Template "mod_banner_list_all.html5" auf den Textbanner Anteil
-reduziert und angepasst (z.B. die Grafik am Anfang der einzelnen Links)
+reduziert und angepasst (z.B. die Grafik am Anfang der einzelnen Links).
 
 Hier das geänderte Template. Das wurde als "mod_banner_list_linkliste.html5"
 über das Backend in Templates wie üblich abgelegt.
@@ -76,7 +76,7 @@ Das Frontendmodul wird wie beschrieben angelegt, Besonderheiten hier sind dann:
   * Hier kann eine Überschrift eingetragen werden, im Beispielbild wurde dort eingetragen:<br>
   "Andere Seiten von mir:"
 * Bannerkategorien
-  * Hier wird die Kategorie ausgewählt die man für die Linkliste angelegt hat
+  * Hier wird die Kategorie ausgewählt, die man für die Linkliste angelegt hat
 * Bannervorlage
   * hier das geänderte Template auswählen (mod_banner_list_linkliste)
 
