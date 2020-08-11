@@ -1,6 +1,6 @@
 ## Sonderfall: Keine aktiven Banner und kein Standard Banner
 
-Wenn in diesem Fall auch "Ausblenden wenn leer" nicht aktiviert ist wird ein
+Wenn in diesem Fall auch "Ausblenden wenn leer" nicht aktiviert ist, wird ein
 DIV-Tag mit class="banner_empty" generiert:
 
 ```html
@@ -20,7 +20,7 @@ erhalten bleibt und dadurch das Layout der Seite nicht verändert wird:
 }
 ```
 
-Der dabei erzeugte Text kann überschrieben werden, durch setzen in langconfig.php,
+Der dabei erzeugte Text kann überschrieben werden, durch Setzen in langconfig.php,
 hier nun als Beispiel ein Leertext:
 
 ```php
