@@ -6,7 +6,7 @@ Ein neues Frontend Modul wird angelegt über:
 
 Als erstes unbedingt **zuerst den Titel eingeben**, erst dann bei Modultyp:
 Verschiedenes -> Banner auswählen. Es ändern sich nun die Formularfelder.
-Bei 'Banner Kategorien' nun die vorher angelegt Kategorie auswählen,
+Bei 'Banner Kategorien' nun die vorher angelegte Kategorie auswählen,
 anschließend 'Speichern und Schließen'.
 
 Nun muss das angelegte Frontend Modul noch im Layout eingebunden werden:
