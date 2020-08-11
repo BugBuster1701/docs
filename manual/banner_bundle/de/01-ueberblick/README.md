@@ -1,13 +1,13 @@
 # Überblick
 
-Banner Bundle ist eine Contao 4 Erweiterung zur Anzeige von Banner Bilder und 
+Banner Bundle ist eine Contao 4 Erweiterung zur Anzeige von Banner Bildern und 
 Texten mit einer einfachen Form der Gewichtung über Prioritäten.
 
 Im Backend gibt es dazu eine Statistikübersicht.
 
 Eine ReKlick Sperre ist integriert (5 Minuten), die Weiterleitung funktioniert
 in der Zeitspanne, es wird aber nicht gezählt. Ebenso werden die Views innerhalb
-einer Zeitspanne von 10 Minuten nicht neu gezählt falls derselbe Banner
+einer Zeitspanne von 10 Minuten nicht neu gezählt, falls derselbe Banner
 angezeigt wird. Die Zeitspanne zum Blocken der View-Zählung kann geändert werden.
 
 Banner Bundle benutzt in Abhängigkeit das "Bot Detection Bundle".
