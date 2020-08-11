@@ -1,4 +1,4 @@
 # Besonderheiten
 
-Hier folgen einige Besonderheiten die zu beachten sind.
+Hier folgen einige Besonderheiten, die zu beachten sind.
  
