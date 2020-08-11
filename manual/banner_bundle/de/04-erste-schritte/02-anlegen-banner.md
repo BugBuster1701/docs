@@ -48,7 +48,7 @@ Bei der Auswahl kommen die entsprechenden passenden Formularfelder dafür.
     * Solange diese Option nicht aktiviert ist, wird dieser Banner nicht für
     die Anzeige berücksichtigt.
 10. Begrenzung der Views und Klicks
-    * Definition maximale View und/oder Klicks
+    * Definition maximale Views und/oder Klicks
 
 
 ### Text Banner
@@ -77,4 +77,4 @@ Bei der Auswahl kommen die entsprechenden passenden Formularfelder dafür.
     * Solange diese Option nicht aktiviert ist, wird dieser Banner nicht für
     die Anzeige berücksichtigt.
 9. Begrenzung der Views und Klicks
-    * Definition maximale View und/oder Klicks
+    * Definition maximale Views und/oder Klicks
