@@ -6,7 +6,7 @@ Hier einige Hinweise und Tipps für bekannte Anwendungsszenarien und deren Beson
 ### Eine Kategorie - Zwei Frontend Module auf einer Seite
 
 In der aktuellen Version gibt es die Möglichkeit alle Banner einer Kategorie anzuzeigen.
-Die alte Variante mehrere Banner auf einer Webseite anzeigen zu können war,
+Die alte Variante, mehrere Banner auf einer Webseite anzeigen zu können, war,
 mehrere Frontend Module anzulegen und in die Webseite einzubinden. Vom Modul wird
 dabei verhindert, dass ein Banner nicht mehrmals angezeigt wird.
 
