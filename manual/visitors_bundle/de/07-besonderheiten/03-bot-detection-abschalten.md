@@ -1,6 +1,6 @@
 ## Bot Detection abschalten
 
-Wer die Zugriffe von Bots und Suchmaschinen mitzählen möchte, kann die BotDetection 
+Wer die Zugriffe von Bots und Suchmaschinen mitzählen möchte, kann die Bot Detection 
 abschalten. Das geht allerdings nicht über das Backend, sondern muss über die 
 localconfig.php passieren.
 

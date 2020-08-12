@@ -1,6 +1,6 @@
-# Cookbook for GitHub
+# Cookbook for Git & GitHub
 
-This is my cookbook for GitHub on [docs.contao.ninja](http://docs.contao.ninja/).
+This is my cookbook for Git & GitHub on [docs.contao.ninja](http://docs.contao.ninja/).
 
 (sorry, for the time being only in German.)
 

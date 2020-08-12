@@ -28,7 +28,7 @@ Contao forum for questions | [community.contao.org][6]
 Translations of the texts in the back end and the front end are managed with using of Transifex.
 To create a new translation or to help to maintain an existing one, please register at transifex.com.
 
-Projekt Link: [https://www.transifex.com/projects/p/contao-visitors/][7]
+Projekt Link: [https://www.transifex.com/projects/p/contao-banner/][7]
 
 Howto (english): [http://docs.transifex.com/faq/#translating][8]
 

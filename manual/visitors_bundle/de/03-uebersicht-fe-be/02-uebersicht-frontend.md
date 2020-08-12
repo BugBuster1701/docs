@@ -9,10 +9,12 @@ Diese Dateien liegen im Unterverzeichnis `css_demo`. Zur Verwendung siehe [CSS-D
 
 
 ### Besucherstatistik zeilenweise
+Ansicht bei Verwendung des Templates mod_visitors_fe_all:
 
 ![Ansicht Besucherstatisik zeilenweise](images/modul_visitors_fe_all.jpg)
 
 ### Besucherstatistik horizontal
+Ansicht bei Verwendung des Templates mod_visitors_fe_all:
 
 ![Ansicht Besucherstatisik horizontal](images/modul_visitors_fe_all_horizontal.jpg)
 
