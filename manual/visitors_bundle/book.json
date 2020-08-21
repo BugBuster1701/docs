@@ -1,0 +1,80 @@
+{
+  "gitbook": "2.x.x",
+
+  "_comment": "Book metadats (somes are extracted from the README by default)",
+  "title": null,
+  "description": null,
+  "isbn": null,
+
+  "_comment": "Plugins list, can contain -name for removing default plugins",
+  "plugins": [
+      "richquotes",
+      "edit-link",
+      "anchors",
+      "autocover"
+  ],
+
+  "_comment": "Links in template (null: default, false: remove, string: new value)",
+  "links": {
+    "_comment": "Custom links at top of sidebar",
+    "sidebar": {
+      "Contao.Ninja Homepage": "http://contao.ninja",
+      "Contao.Ninja Docs": "http://docs.contao.ninja"
+    },
+
+    "_comment": "Sharing links",
+    "sharing": {
+        "google": false,
+        "facebook": null,
+        "twitter": null,
+        "weibo": false,
+        "all": false
+    }
+  },
+
+  "_comment": "Options for PDF generation",
+  "pdf": {
+    "toc": false,
+
+    "_comment": "Font size for the fiel content, default: 12",
+    "fontSize": 14,
+
+    "_comment": "Paper size for the pdf",
+    "_comment": "Choices are a0-a6, b0-b6, legal, letter",
+    "paperSize": "a4",
+
+    "_comment": "Margin (in pts), Note: 72 pts equals 1 inch",
+    "margin": {
+        "right": 62,
+        "left": 62,
+        "top": 36,
+        "bottom": 36
+    },
+
+    "_comment": "Header HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
+    "headerTemplate": "<p style='text-align:center; color:black'>_TITLE_ - _SECTION_</p>",
+
+    "_comment": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_",
+    "footerTemplate": "<p style='text-align:center; color:green'>- _PAGENUM_ -</p>"
+  },
+
+  "_comment": "Global configuration for plugins",
+  "pluginsConfig": {
+      "edit-link": {
+          "base": "https://github.com/BugBuster1701/docs/edit/master/manual/visitors_bundle",
+          "label": {
+              "en": "Edit This Page",
+              "de": "Seite bearbeiten"
+          }
+      },
+      "richquotes" :
+      {
+            "todos" : true
+      },
+      "_comment": "not used (cover.jpg is self made), without this follow error messages",
+      "autocover": {
+          "title": "Visitors Bundle",
+          "author": "Glen Langer"
+        }
+  }
+}
